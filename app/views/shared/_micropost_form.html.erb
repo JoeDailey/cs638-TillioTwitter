@@ -1,0 +1,11 @@
+
+<%= form_for(@micropost) do |f| %>
+    <%= render 'shared/error_messages', object: f.object %>
+    <div class="field">
+            <form class="stats_user">
+			Message <textarea type="text" name="firstname"></textarea><br>
+			Telephone#: <input type="tel" name="usrtel">
+		</form>
+    </div>
+    <%= f.submit "Post", class: "btn btn-large btn-danger" %>
+<% end %>
