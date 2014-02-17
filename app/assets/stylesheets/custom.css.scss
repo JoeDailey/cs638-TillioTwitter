@@ -172,7 +172,7 @@ aside {
 }
 
 .gravatar {
-  width: 100%;
+
 
 }
 
@@ -284,9 +284,8 @@ padding: 10px 10px 10px 10px;
 width: 250px;
 margin-left: 35%;   
 }
-.container{
 
-}
+.offset
 //Contains everything, user pro and messages.  
 .row {
 padding-top: 20px; 
@@ -313,7 +312,11 @@ border-color:blue;
  margin-top: 10px; 
 }
 
-.messages1{
+.offset4{
+  margin-left:360px;
+}
 
+.span8{
+  margin-left: 150px; 
 }
 
