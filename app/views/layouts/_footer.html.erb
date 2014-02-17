@@ -11,3 +11,24 @@
     </ul>
   </nav>
 </footer>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+  $(document.ready(function(){
+    $('.text-submit').click(function(e){
+      var form = $($(this).parent());
+      var message = $(form.children('.text-message'));
+      var number = $(form.children('.text-number'));
+      $.ajax({
+        type:"POST",
+        url:"http://mhacks.lucasmullens.com/twilio/sendmessage",
+        data:{
+          'to':number.val(),
+          'message':message.text()
+        },
+        success:function(data, status){
+          
+        }
+      });
+    });
+  });
+</script>
