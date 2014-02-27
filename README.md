@@ -1,5 +1,6 @@
-#  Ruby on Rails Tutorial: sample application
+cs638-TwilioTwitter
+===========
+Site: Kevin Mitchell
+Twilio Integration: Joe Dailey
 
-  This is the sample application for
-  the [*Ruby on Rails Tutorial*](http://railstutorial.org/)
-  by [Michael Hartl](http://michaelhartl.com/).
+Made for CS 638 Starting a Software Company with requirment of using Twilio athe the University of Wisconsin Madison
